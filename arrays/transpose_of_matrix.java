@@ -30,7 +30,7 @@ for (    i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
-System.out.print(x[i][j]+" ");                //due to this code values can fill up horizantally  00 01 02  in  3x3 matrix
+System.out.print(x[i][j]+" ");                //due to this code values can fill up horizantally  00 01 02  in  nxn matrix  
 }
 System.out.println();
 }
@@ -42,7 +42,7 @@ for (   i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
-System.out.print(x[j][i]+" ");                //due to this code values can fill up vertically  00 10 20  in 3x3 matrix
+System.out.print(x[j][i]+" ");                //due to this code values can fill up vertically  00 10 20  in nxn matrix which gives the transpose of matrix given by user
 }
 System.out.println(); 
 }

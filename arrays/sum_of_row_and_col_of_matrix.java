@@ -30,9 +30,9 @@ for (    i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
-	sum=sum+x[i][j];
+	sum=sum+x[i][j];                   // this forumla gives the sum of each row of matrix
 	
-System.out.print(x[i][j]+" ");                //due to this code values can fill up horizantally  00 01 02  in  3x3 matrix
+System.out.print(x[i][j]+" ");                 
 }
 System.out.print("   "+sum); 
 System.out.println();
@@ -44,9 +44,9 @@ for (    i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
-	sum1=sum1+x[j][i];
+	sum1=sum1+x[j][i];                 // this forumla gives the sum of each column of matrix
 	
-                                          //due to this code values can fill up horizantally  00 01 02  in  3x3 matrix
+                                           
 }
  
   System.out.print(sum1+" "); 
