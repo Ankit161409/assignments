@@ -29,10 +29,10 @@ x=new int[m][n];
 z=new int[o][p];
 y=new int[m][p];
 
-System.out.println("enter the value for first 3x3 matrix");
-for (   i=0; i<x.length; i++)
+System.out.println("enter the value for first "+m+"x"+n+ " matrix");
+for (   i=0; i<m; i++)
 {
-for (   j=0; j<x[i].length; j++)
+for (   j=0; j<n; j++)
 {
 	
 x[i][j]=s.nextInt();
@@ -49,7 +49,7 @@ System.out.print(x[i][j]+" ");
 System.out.println();
 }
 System.out.println();
-System.out.println("enter the value for 2nd 3x3 matrix");
+System.out.println("enter the value for 2nd "+o+"x"+p+ "  matrix");
 for (   i=0; i<o; i++)
 {
 for (   j=0; j<p; j++)
