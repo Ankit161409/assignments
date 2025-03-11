@@ -26,40 +26,38 @@ x[i][j]=s.nextInt();
 }	 
 }int sum=0;
 System.out.println();
-System.out.print("you gives the values in matrix :\n\ns");
+System.out.println ("the user gives the matrix is : ");
+for (   i=0; i<m; i++)
+{
+for (   j=0; j<n; j++)
+{
+	
+System.out.print ( x[i][j]+" ");
  
 
- 
+}	
+System.out.println();
+
+} 
+System.out.println();
+System.out.print(" the sum of whole elements of this matrix is :  ");
 for (    i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
 	sum=sum+x[i][j];                   // this forumla gives the sum of each row of matrix
 	
-System.out.print(x[i][j]+" ");                 
-}
-System.out.print("   "+sum); 
-System.out.println();
-sum=0;
+               
 }
 
-System.out.println();
-int sum1=0;
-for (    i=0; i<m; i++)
-{
-for (   j=0; j<n; j++)
-{
-	sum1=sum1+x[j][i];                 // this forumla gives the sum of each column of matrix
-	
-                                           
-}
  
-  System.out.print(sum1+" "); 
-  sum1=0;
+
+}
+System.out.print(+sum); 
+ 
  
 }
 
-
-}}
+}
 
 

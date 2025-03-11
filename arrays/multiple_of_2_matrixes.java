@@ -40,11 +40,12 @@ x[i][j]=s.nextInt();
 }	 
 }
 System.out.println();
+System.out.print("you gives the values in first matrix :\n\n");
 for (    i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
 {
-System.out.print(x[i][j]+" ");
+System.out.print(x[i][j]+" " );
 }
 System.out.println();
 }
@@ -60,6 +61,8 @@ z[i][j]=s.nextInt();
 }	 
 }
 System.out.println();
+System.out.print("you gives the values in second matrix :\n\n");
+
 
 for (   i=0; i<o; i++)
 {
@@ -69,19 +72,24 @@ System.out.print(z[i][j]+" ");
 }
 System.out.println();
 }
-System.out.println("the muktiple of these 2 matrices : ");
 System.out.println();
+System.out.print ("the multiply of these 2 matrices : ");
+System.out.println("\n");
+
 for (   i=0; i<m; i++)
 {
 for (   j=0; j<p; j++)
 {
+	y[i][j]=0;
 	for (  k=0; k<o; k++)
+	{
 	y[i][j]+=x[i][k]*z[k][j];
+
+}
 System.out.print(y[i][j]+" ");
+
 }
 System.out.println();
-}
-
-}}
+}}}
 
 
