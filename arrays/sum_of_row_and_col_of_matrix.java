@@ -26,7 +26,7 @@ x[i][j]=s.nextInt();
 }	 
 }int sum=0;
 System.out.println();
-System.out.print("you gives the values in matrix :\n\ns");
+System.out.print("you gives the values in matrix :\n\n");
  
 
  

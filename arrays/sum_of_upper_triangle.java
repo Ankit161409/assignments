@@ -14,7 +14,7 @@ class child
 	int n=s.nextInt();
 x=new int[m][n];
 
-System.out.println("enter the value -for  "+m+"x"+n+ " matrix");
+System.out.println("enter the value  for  "+m+"x"+n+ " matrix");
 for (   i=0; i<m; i++)
 {
 for (   j=0; j<n; j++)
