@@ -1,5 +1,3 @@
-
- 
  import java.util.Scanner;
 class child
 {
@@ -9,21 +7,28 @@ public static void main(String[] args){
 	
 		int z[];
 		System.out.println("enetr the size for arrays");	
+			
 	int	 x= s.nextInt();  
 		z=new int[x];
 		System.out.println("enetr the values for arrays");	
 		 for (int i = 0; i < z.length; i++) {
 			 z[i]=s.nextInt();  
 		 }
-	int max=z[0];
-	 
-for ( int i=1; i<z.length; i++)
-{
- 
- if(z[i]>max)
-  max=z[i];
-  
-}
-    System.out.println("the larget number is : "+max);	
-}
+	 	  
+		 for (int i = 0; i < z.length; i++) {
+			   int count=0;
+		  for (int j = 0; j < z.length; j++) {
+		  
+		  if(z[i]==z[j])
+		  {
+			  count++;
+		  }
+		  }
+		 if(count==1)
+		  {
+			 System.out.print("first non repeating value is : "+z[i]);
+		  break;
+		 }
+		  }
+		 }
 }
