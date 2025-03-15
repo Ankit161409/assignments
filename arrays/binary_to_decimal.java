@@ -7,7 +7,7 @@ public static void main(String[] args){
 	
 	 
 	    	 System.out.println("enter the binary code which you want to convert into decimal : "); 
-		 
+		
 		int n=s.nextInt();
 	 
 		 int x=n;

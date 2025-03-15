@@ -18,9 +18,7 @@ class child
 	 
 	int o=s.nextInt();
  
-	int p=s.nextInt();
- 
-                  
+	int p=s.nextInt();                
 int x[][];
 int z[][];
 int y[][];
