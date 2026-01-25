@@ -1,1 +1,2 @@
- Assignmemt quetions 👍 :)
+Array and strings 
+Assignmemt quetions 👍 :)
