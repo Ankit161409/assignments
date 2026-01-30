@@ -1,2 +1,2 @@
-Array and strings 
+practicing Array and strings questions 
 Assignmemt quetions 👍 :)
